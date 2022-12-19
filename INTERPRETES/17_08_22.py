@@ -1,3 +1,3 @@
 # Holamundo
-print(type())
+print(type("holamundo"))
 

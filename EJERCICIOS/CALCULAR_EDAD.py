@@ -1,18 +1,6 @@
-edad = input ('Inserte cuantos años tiene: ')
-import time
-import sys
+num1 = int(input("¿En qué año naciste? "))
+num2 = int(input("¿En qué año estamos? "))
+edad = num2 - num1
 
-def mecanografiar(texto):
-
- lista = texto.split()
-
- for palabra in lista:
-    sys.stdout.write(palabra + " ")
-    sys.stdout.flush()
-    time.sleep(2)
-
-print("\n")
-mecanografiar("Calculando . . .")
-print("\n")
-
-print('Tienes', edad, 'años :)')
+if edad>1 : print('Tienes', edad, 'años')
+else : print('Tienes un año')

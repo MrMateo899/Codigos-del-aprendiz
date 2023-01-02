@@ -1,9 +1,10 @@
-var1 = int(input("Inserte una base: "))
-var2 = int(input("Inserte un exponente: "))
+base = int(input("Inserte una base: "))
+expo = int(input("Inserte un exponente: "))
+resul = base**expo
 
-if var2 == 2 :
-    print(var1, 'al cuadrado es igual a', var1**2 )
-if var2 == 3 :
-    print(var1, 'al cubo es igual a', var1**3 )
-if var2 > 3 : 
-    print(var1, 'elevado a', var2, 'es igual a', var1**var2)
+if expo == 2 :
+    print(base, 'al cuadrado es igual a', resul)
+elif expo == 3 :
+    print(base, 'al cubo es igual a', resul)
+elif expo > 3 : 
+    print(base, 'elevado a', expo, 'es igual a', resul)
